@@ -1,0 +1,11 @@
+docling>=1.0.0
+llama-index
+qdrant-client
+fastembed
+transformers
+accelerate
+bitsandbytes
+torch
+torchvision
+pyyaml
+pandas
