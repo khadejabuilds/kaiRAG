@@ -33,9 +33,9 @@ kaiRAG is a production-grade, fully local Retrieval-Augmented Generation (RAG) p
 
 * **Ingest a Document:**
   ```bash
-  python scripts/run_pipeline.py --ingest --pdf_path path/to/document.pdf --doc_source FFS-1
+  python scripts/run_pipeline.py --ingest --pdf_path doc_source/nasa_systems_engineering_handbook.pdf
   ```
 * **Query the System:**
   ```bash
-  python scripts/run_pipeline.py --query "What is the assessment procedure for brittle fracture?"
+  python scripts/run_pipeline.py --query "What is the criteria for tailoring and SE NPR requirement?"
   ```
