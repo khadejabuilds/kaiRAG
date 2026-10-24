@@ -1,16 +1,16 @@
 # kaiRAG: Local Multimodal RAG for Engineering & Technical Documents
 
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-000000?style=for-the-badge&logo=nvidia&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-000000?style=for-the-badge&logo=huggingface&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge)
-![Docling](https://img.shields.io/badge/Docling-000000?style=for-the-badge)
-![Qwen2.5](https://img.shields.io/badge/Qwen2.5--7B-000000?style=for-the-badge)
-![Qwen2-VL](https://img.shields.io/badge/Qwen2--VL--7B-000000?style=for-the-badge)
-![BGE](https://img.shields.io/badge/BGE_Embeddings_%2B_Reranker-000000?style=for-the-badge)
-![BM25](https://img.shields.io/badge/BM25-000000?style=for-the-badge)
+[![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![CUDA](https://img.shields.io/badge/CUDA-000000?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-000000?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co)
+[![Qdrant](https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white)](https://qdrant.tech)
+[![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge)](https://www.llamaindex.ai)
+[![Docling](https://img.shields.io/badge/Docling-000000?style=for-the-badge)](https://github.com/docling-project/docling)
+[![Qwen2.5](https://img.shields.io/badge/Qwen2.5--7B-000000?style=for-the-badge)](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
+[![Qwen2-VL](https://img.shields.io/badge/Qwen2--VL--7B-000000?style=for-the-badge)](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)
+[![BGE](https://img.shields.io/badge/BGE_Embeddings_%2B_Reranker-000000?style=for-the-badge)](https://github.com/FlagOpen/FlagEmbedding)
+[![BM25](https://img.shields.io/badge/BM25-000000?style=for-the-badge)](https://en.wikipedia.org/wiki/Okapi_BM25)
 
 kaiRAG is a production-grade, fully local Retrieval-Augmented Generation (RAG) pipeline designed to ingest, index, and query complex engineering and functional design documents (including multi-level tables, flowcharts, diagrams, and formulas).
 
