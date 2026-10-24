@@ -1,0 +1,27 @@
+paths:
+  chunk_dir: data/chunks
+  cache_dir: data/doc_cache
+  qdrant_path: /content/drive/MyDrive/structrag_qdrant_db
+parsing:
+  pages_per_chunk: 10
+  images_scale: 2.0
+  cache_version: v1
+  noise_headings: [notes, note]
+vision:
+  model_id: Qwen/Qwen2-VL-7B-Instruct
+  max_image_dim: 1024
+  picture_area_threshold: 0.02
+indexing:
+  embed_model: BAAI/bge-small-en-v1.5
+  collection: structrag_ffs1
+  test_collection: structrag_ffs1_test
+  sparse_model: Qdrant/bm25
+retrieval:
+  use_rrf: true
+  rrf_k: 60
+  dense_top_k: 20
+  sparse_top_k: 20
+  reranker_model: BAAI/bge-reranker-large
+  rerank_top_n: 5
+generation:
+  llm_model_id: Qwen/Qwen2.5-7B-Instruct
