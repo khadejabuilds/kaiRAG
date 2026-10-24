@@ -9,7 +9,7 @@ data/
 data/chunks/
 data/doc_cache/
 structrag_qdrant_db/
-*.pdf
+
 
 # GPU / CUDA / Colab
 .ipynb_checkpoints/
